@@ -1,12 +1,17 @@
 fileFormatVersion: 2
-guid: 42cab83f87930f943b410243748e6163
+guid: d20642795b69cfd4987fad600ab352de
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BanaaniUkko_0
-    21300002: BanaaniUkko_1
-    21300004: BanaaniUkko_2
-    21300006: BanaaniUkko_3
-    21300008: BanaaniUkko_4
+    21300000: Tiilet_0
+    21300002: Tiilet_1
+    21300004: Tiilet_2
+    21300006: Tiilet_3
+    21300008: Tiilet_4
+    21300010: Tiilet_5
+    21300012: Tiilet_6
+    21300014: Tiilet_7
+    21300016: Tiilet_8
+    21300018: Tiilet_9
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -50,7 +55,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,101 +105,201 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BanaaniUkko_0
+      name: Tiilet_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 308
-        width: 152
-        height: 284
-      alignment: 9
-      pivot: {x: 0.47736585, y: 0.5046389}
-      border: {x: 0, y: 16, z: 0, w: 52}
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c269c56bfc20dcd41a33cb83cccaf90b
+      spriteID: 19ab7842e5d488140ab73e4dbeb91b9d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BanaaniUkko_1
+      name: Tiilet_1
       rect:
         serializedVersion: 2
-        x: 162
-        y: 312
-        width: 147
-        height: 277
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 13, z: 0, w: 57}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21437a7009d39fa4d9b5f94885a9425a
+      spriteID: 48ba332397dc1524489b23c603ff6e7c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BanaaniUkko_2
+      name: Tiilet_2
       rect:
         serializedVersion: 2
-        x: 322
-        y: 312
-        width: 149
-        height: 282
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 12, z: 0, w: 52}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90f2c5cfd4bbd7349ba3da5cf7f987f6
+      spriteID: ceb4f455869fb104698ff4d63fbd9585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BanaaniUkko_3
+      name: Tiilet_3
       rect:
         serializedVersion: 2
-        x: 482
-        y: 316
-        width: 149
-        height: 278
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 12, z: 0, w: 50}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd1a23cacc1d63e43a57ba2977140aa6
+      spriteID: 28cfb0c82de2b1a498c796d6311429f9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BanaaniUkko_4
+      name: Tiilet_4
       rect:
         serializedVersion: 2
-        x: 643
-        y: 313
-        width: 145
-        height: 281
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 13, z: 0, w: 51}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 013ec0a41c7a0784392c2e3294b64948
+      spriteID: 3c18a7ab4be0cd746af1683baa83adbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiilet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8e515e8283a4a449ab176c2ddda11f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiilet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7661360d0259aa14b9fb088c714b15a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiilet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add878d4b01de95439d2affa64513e9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiilet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23647076d84f2d4fb743a79f1cf8a9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiilet_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53ba79add8c17b44aa881e76782bab8
       vertices: []
       indices: 
       edges: []
@@ -202,7 +307,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 07df06a1af9922246b551f314d0ce68b
+    spriteID: 20e7ce90e86d83342ac01fc5d048b7aa
     vertices: []
     indices: 
     edges: []

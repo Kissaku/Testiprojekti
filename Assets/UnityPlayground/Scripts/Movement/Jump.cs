@@ -22,8 +22,13 @@ public class Jump : Physics2DObject
 
 	private bool canJump = true;
 
-	// Read the input from the player
-	void Update()
+    // Read the input from the player
+    Animator animator;
+    private void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
+    void Update()
 	{
 		if(canJump
 			&& Input.GetKeyDown(key))
@@ -42,4 +47,12 @@ public class Jump : Physics2DObject
 			canJump = true;
 		}
 	}
+
+    private void LateUpdate()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            animator.SetTrigger("JumpTrigger");
+        }
+    }
 }
